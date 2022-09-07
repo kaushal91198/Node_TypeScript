@@ -1,0 +1,33 @@
+npm install -g typescript
+tsc --v
+
+
+npm install -g ts-node
+      -run typescript file directly
+
+
+1) npm init --y
+2) tsc --init
+3) npm install @types/node
+
+-To run file directly
+ts-node app.ts
+
+Install express with node js
+
+npm install express @types/express nodemon ts-node @types/node typescript
+
+To run server on development
+ts-node ./src/index.ts
+
+To run server on live (there are many caching memory on upper command)
+ts-node --transpile-only ./src/index.ts
+
+most important topics of typescript 4
+
+
+mongodb
+1) npm install mongoose @types/mongoose
+
+Argument of type 'String' is not assignable to parameter of type 'string'.
+'string' is a primitive, but 'String' is a wrapper object. Prefer using 'string' when possible.
